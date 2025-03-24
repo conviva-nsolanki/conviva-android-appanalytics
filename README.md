@@ -19,14 +19,14 @@ Use Conviva Android ECO SDK to auto-collect events and track application-specifi
 <summary><b>Diagram</b></summary>
 
   ```mermaid
-    graph TD
+graph TD
     build[Build Process] --> plugin;
     plugin[Conviva ECO Gradle Plugin] -->|Injects code| app;
-    app[Android App] --> sdk@{ label: "Conviva ECO SDK" };
+    app[UI Layer & Business Logic] --> sdk@{ label: "Conviva ECO SDK" };
     events[App Events] --> sdk;
     sdk --> backend[Conviva Backend Server];
 
-    subgraph "Application Runtime"
+    subgraph "Android Application Runtime"
         app;
         sdk;
         events;
