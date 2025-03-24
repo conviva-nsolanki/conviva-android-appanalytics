@@ -24,6 +24,7 @@ graph TD
     plugin[Conviva ECO Gradle Plugin] -->|Injects code| app;
     app[UI Layer & Business Logic] --> sdk@{ label: "Conviva ECO SDK" };
     events[App Events] --> sdk;
+    app --> events;
     sdk --> backend[Conviva Backend Server];
 
     subgraph "Android Application Runtime"
