@@ -47,7 +47,7 @@ graph TD
 
 ### 1. Download
 
-- Add the plugin to your project's root `build.gradle` file, replacing `<version>` with the latest version: ![release](https://img.shields.io/github/release/Conviva/conviva-android-plugin?label=Conviva%20ECO%20Android%20Plugin)
+- Add the plugin to your project's root `build.gradle` file, replacing `<version>` with the latest version: [![release](https://img.shields.io/github/release/Conviva/conviva-android-plugin?label=Conviva%20Android%20ECO%20Plugin)](https://github.com/Conviva/conviva-android-plugin/releases)
 
 ```groovy
 // Groovy
@@ -67,7 +67,7 @@ plugins {
 
 ```
 
-- Apply the Gradle plugin and add the dependency in `app/build.gradle` file, replacing `<version>` with the latest version: ![release](https://img.shields.io/github/release/Conviva/conviva-android-appanalytics?label=Conviva%20Android%20ECO%20SDK)
+- Apply the Gradle plugin and add the dependency in `app/build.gradle` file, replacing `<version>` with the latest version: [![release](https://img.shields.io/github/release/Conviva/conviva-android-appanalytics?label=Conviva%20Android%20ECO%20SDK)](https://github.com/Conviva/conviva-android-appanalytics/releases)
 
 ```groovy
 // Groovy
